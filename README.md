@@ -59,3 +59,9 @@ In addition to dist.all_reduce(tensor, op, group), there are many additional col
     dist.all_to_all(output_tensor_list, input_tensor_list, group): Scatters list of input tensors to all processes in a group and return gathered list of tensors in output list.
 
 The full list of supported collectives can be found by looking at the latest documentation for PyTorch Distributed
+
+
+# Slides
+* [youtube-link](https://www.youtube.com/watch?v=T22e3fgit-A)
+* https://github.com/gpu-mode/lectures/blob/main/lecture_017/slides.pdf
+
